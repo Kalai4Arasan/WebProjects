@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<title>Claculator Version2.0</title>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./operations.js"></script>
+</head>
+
+<body>
+    <div class="size">
+   <h1 >Calculator</h1>
+   <input id="number1" class="input1" type="button" >
+   <br/>
+   <br/>
+   <input id="number2" class="input2" type="button">
+   <br/>
+   <br/>
+   <input id="result" class="result" type="text" value="0">
+   <br/>
+   <br/>
+   <button onclick="clear1()">AC</button>
+   <button onclick="addsub()">+/-</button>
+   <button onclick="mod()">%</button>
+   <button style="color:white;background-color:orange;border:orange;" onclick="div()">/</button>
+   <br/>
+    <button onclick="get('7')" style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">7</button>
+   <button  onclick="get('8')" style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">8</button>
+   <button  onclick="get('9')" style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">9</button>
+   <button style="color:white;background-color:orange;border:orange;" onclick="mul()">x</button>
+   <br>
+   <button onclick="get('4')" style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">4</button>
+   <button onclick="get('5')" style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">5</button>
+   <button onclick="get('6')" style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">6</button>
+   <button style="color:white;background-color:orange;border:orange;" onclick="sub()">-</button>
+   <br/>
+   <button onclick="get('1')"  style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">1</button>
+   <button onclick="get('2')"  style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">2</button>
+   <button onclick="get('3')"  style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">3</button>
+   <button style="color:white;background-color:orange;border:orange;" onclick="add()">+</button>
+   <br/>
+    <button onclick="get('0')"  class="buttonsize" style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">0</button>
+   <button onclick="get('.')"style="color:white;background-color:rgb(95, 94, 93);border:rgb(95, 94, 93);">.</button>
+   <button onclick="swap()" style="color:white;background-color:orange;border:orange;">^</button>
+   <!--button class="active">
+       <a href="./claculator.html">
+        AC
+       </a></button-->
+       
+   </div>
+</body>
