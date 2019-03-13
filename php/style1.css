@@ -1,0 +1,23 @@
+
+body{
+    background-image: url("jerry.png");
+    background-size: cover;
+}
+body .formtag{
+    margin:15% 10px;
+    padding:0px;
+    text-align:center;
+    font-family: Arial;
+}
+ul{
+    list-style: none;
+    line-height:30px;
+}
+
+.inp{
+    border-radius: 6px;
+}
+
+li .sub{
+    border-radius: 5px;
+}
