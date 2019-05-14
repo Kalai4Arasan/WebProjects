@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        let x= window.prompt("enter the 1st value");
+        let y= window.prompt("enter the 2nd value");
+        let z= window.prompt("enter the 3rd value");
+      var arr=[x,y,z];
+        var i,temp;
+        document.write("<h1>before sorting :</h1>",arr,"<br/>");
+      var n=arr.length;
+     for(i=0;i<n;++i){
+       for(j=i+1;j<n-1;++j)
+       {
+           if(arr[j]<arr[i])
+           {
+                temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+           }
+       }
+     }
+     document.write("<h1>after sorting :</h1>");
+     for(i=0;i<n;i++){
+      document.write(arr[i],"<br>");
+     }
+     
+    </script> 
+</body>
+</html>

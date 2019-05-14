@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+      var size=window.prompt("enter the size of an array!!!");
+      var x=new Array(size);
+      var n=size;
+      for(i=0;i<n;i++){
+        x[i]=window.prompt("enter the "+i+" value");
+      }
+      for(i=0;i<n;i++){
+        document.write(i+" element is "+x[i]+"</br>");
+      }
+      var fmax=0;
+      var smax=0;
+      var fmin=100000;
+      var smin=100000;
+      for(i=0;i<n;i++){
+        if(x[i]<fmin){
+            smin=fmin;
+            fmin=x[i];
+        }
+        else if(x[i]<smin && x[i]!=fmin){
+            smin=x[i];
+        }
+      }
+     
+      document.write("first min value is :",fmin,
+      "<br>second min value is : ",smin,"<br>");
+
+      for(i=0;i<n;i++){
+        if(x[i]>fmax){
+            smax=fmax;
+            fmax=x[i];
+        }
+        else if(x[i]>smax && x[i]!=fmax){
+            smax=x[i];
+        }
+      }
+      document.write("first max value is :",fmax,
+      "<br>second max value is : ",smax,"<br>");
+     
+    </script>
+<body>
+</html>

@@ -1,0 +1,14 @@
+  /*  while($check=mysqli_fetch_assoc($data)){
+                if($name==$check["username"] || $pass==$check["password"]){
+                   $count++;
+                }
+                else{
+                    $count=0;
+                }
+            }
+            if($count>0){
+                echo "Already Exist";
+            }
+            else{
+                mysqli_query($connect,$querry); 
+            }*/

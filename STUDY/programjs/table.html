@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <input id="result" type="text" placeholder="enter dollar value?">
+        <br>
+        <input id="answer" type="text" placeholder="converted dollar value">
+        <br>
+        <input type="button" value="convert" onclick="convert()" >
+    </body>
+    <script>
+        function convert(){
+    var usd=document.getElementById("result").value;
+    document.getElementById("answer").value=parseFloat(usd)*71.25;
+        }
+    </script>
+</html>
